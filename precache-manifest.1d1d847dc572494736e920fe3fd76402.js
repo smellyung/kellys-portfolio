@@ -1,22 +1,26 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f13838a969fbea509c48b18077ffe8f",
+    "revision": "955d204024fdb55dfb0bca674b559422",
     "url": "/kellys-portfolio/index.html"
   },
   {
-    "revision": "e8a0d7c0cb73e219d862",
-    "url": "/kellys-portfolio/static/css/main.ab8c2d33.chunk.css"
+    "revision": "261b7d5e2eb214da8b6c",
+    "url": "/kellys-portfolio/static/css/main.25b53932.chunk.css"
   },
   {
     "revision": "2ad811e74e3d85bf39e2",
     "url": "/kellys-portfolio/static/js/2.1746704e.chunk.js"
   },
   {
-    "revision": "e8a0d7c0cb73e219d862",
+    "revision": "261b7d5e2eb214da8b6c",
     "url": "/kellys-portfolio/static/js/main.0ee15aa2.chunk.js"
   },
   {
     "revision": "d3c710028f394eb15499",
     "url": "/kellys-portfolio/static/js/runtime~main.eb1772f5.js"
+  },
+  {
+    "revision": "40052696535dbd5f83a4e29ed37198e8",
+    "url": "/kellys-portfolio/static/media/pink-sunrise.40052696.jpg"
   }
 ]);
