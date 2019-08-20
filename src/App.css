@@ -5,6 +5,26 @@
 }
 
 .App-header {
+  /* display: flex;
+  align-items: center;
+  background: #1c1a1a;
+  color: white;
+  height: 50px; */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1c1a1a;
+  color: white;
+  height: 100px;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  position: fixed;
   display: flex;
   align-items: center;
   background: #1c1a1a;
@@ -12,11 +32,87 @@
   height: 50px;
 }
 
-.nav {
-  display: flex;
+img {
+  height: 100%;
   width: 100%;
 }
 
 .item {
   flex: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .item:hover {
+  background-color: white;
+} */
+
+.info {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+/* .info p {
+  margin: 0
+} */
+
+.info-border {
+  padding: 50px 35px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('/pink-sunrise.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-position: 50%;
+  color: white;
+}
+
+.projects {
+  display: flex;
+}
+
+.project {
+  flex: 1;
+  background: black;
+  color: white;
+}
+
+.project:nth-child(2) {
+  margin: 0 10px;
+}
+
+#tech-stack {
+  margin-bottom: 50px;
+}
+
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+}
+
+#about {
+  background: black;
+  color: white;
+  padding-bottom: 30px;
 }
