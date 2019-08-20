@@ -1,19 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        nav
+        <div className='nav'>
+          <a className='item'>Home</a>
+          <a className='item'>About</a>
+          <a className='item'>Projects</a>
+          <a className='item'>Tech Stack</a>
+        </div>
       </header>
-      <div className='main'>
+      <div className='container' id='main'>
         <h1>Kelly's Portfolio</h1>
         <p>Web Developer</p>
         <p>Contact now!</p>
       </div>
-      <div className='about'>
+      <div className='container' id='about'>
         <h1>About</h1>
         <p>
           Hi, my name is Kelly. I'm a web developer based in London, looking for opportunies in web development.
@@ -28,7 +32,7 @@ function App() {
           Navigate to the following sections to find out more about the <a>tech stack</a> used and <a>projects</a> I've worked on.
         </p>
       </div>
-      <div className='projects'>
+      <div className='container' id='portfolio'>
         <h1>Projects</h1>
         <div className='project'>
           <p>Kodflix</p>
@@ -43,7 +47,15 @@ function App() {
           <p>A sustainable streetwear brand</p>
         </div>
       </div>
-      <div className='skills'>
+      <div className='container' id='tech-stack'>
+        <h1>Tech Stack</h1>
+        <div>JavaScript</div>
+        <div>CSS</div>
+        <div>HTML</div>
+        <div>React</div>
+        <div>Ember</div>
+        <div>Node.js</div>
+        <div>Git</div>
       </div>
     </div>
   );

@@ -1,32 +1,21 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
 .App-header {
-  background: #4295f5;
+  display: flex;
+  align-items: center;
+  color: black;
+  height: 50px;
 }
 
-.main {
-  background: #f56642;
+.nav {
+  display: flex;
+  width: 100%;
 }
 
-.about {
-  background: #42f59c;
-}
-
-.projects {
-  background: #f56642;
-}
-
-.skills {
-  background: #42f59c;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item {
+  flex: 1;
 }
