@@ -138,6 +138,14 @@ button:hover {
   color: white;
 }
 
+#about div img {
+  height: 375px;
+  width: 300px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 10px;
+}
+
 @media only screen and (max-width: 500px) {
   h1 {
     font-size: 60px;
@@ -147,5 +155,9 @@ button:hover {
   }
   .container {
     padding: 0;
+  }
+  #about div img {
+    height: 275px;
+    width: 220px;
   }
 }
