@@ -1,6 +1,8 @@
 import React from 'react';
-// import '@fortawesome/react-fontawesome';
-// import '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   return (
@@ -8,9 +10,9 @@ export default function Header() {
       <nav>
         <div>
           <ul className='socials'>
-            <li><a href=''>github</a></li>
-            <li><a href=''>linkedin</a></li>
-            <li><a href='mailto: kellyung@hotmail.co.uk'>email</a></li>
+            <li><a href='https://github.com/smellyung'><FontAwesomeIcon icon={faGithub} size="2x"/></a></li>
+            <li><a href='https://www.linkedin.com/in/kelly-ung/'><FontAwesomeIcon icon={faLinkedin} size="2x"/></a></li>
+            <li><a href='mailto: kellyung@hotmail.co.uk'><FontAwesomeIcon icon={faEnvelope} size="2x"/></a></li>
           </ul>
           <ul>
             <li><a href='#main'>Home</a></li>
