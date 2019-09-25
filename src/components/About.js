@@ -13,8 +13,11 @@ export default function About() {
             I learnt a lot about writing clean and readable code, collaboration and agile methodologies. 
           </p>
           <p>
-            I am currently a student at Kodiri Bootcamp, refining my existing skills by learning to build beautiful, fully responsive apps from scratch!
-            Navigate to the following sections to find out more about the <a>tech stack</a> used and <a>projects</a> I've worked on.
+            I've recently completed the Kodiri Coding Bootcamp, refining and enhancing my skills by learning to build full stack, responsive apps from scratch!
+            During my time at Kodiri, I have built a solo app (Kodlfix) as well as a Team App (Fridge-App). 
+            On top of this, I have attended and provided support for several Kodiri meetup events - 
+            most recently I won the Intermediate Challenge at the Silicon Roundabout event held at the Accelerator (part of Metropolitan University)! 
+            Navigate to the following sections to find out more about the tech stack used and projects I've worked on.
           </p>
         </div>
     );
