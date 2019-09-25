@@ -59,12 +59,12 @@ img {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 70px;
   font-family: 'Bungee Shade', cursive;
 }
 
 p {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 
@@ -84,7 +84,7 @@ a {
 
 button {
   background: rgba(21, 21, 31, 0.979);
-  padding: 20px;
+  padding: 15px;
   font-size: 20px;
   border-radius: 10px;
 }
@@ -146,7 +146,7 @@ button:hover {
   margin: 10px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   h1 {
     font-size: 60px;
   }
