@@ -4,8 +4,8 @@ export default function TechStack() {
     return (
         <div className='container' id='tech-stack'>
           <h1>Tech Stack</h1>
-          <div class='technologies'>
-            <div class=''>JavaScript</div>
+          <div className='technologies'>
+            <div>JavaScript</div>
             <div>CSS</div>
             <div>HTML</div>
             <div>React</div>
