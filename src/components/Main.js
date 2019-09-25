@@ -6,8 +6,8 @@ export default function Main() {
         <div class='info-border'>
           <div class='info'>
             <h1>KELLY UNG</h1>
-            <p>Full Stack Web Developer</p>
-            <a>Contact now!</a>
+            <p>I'm a London based Full Stack Web Developer enthusiastic about coding and learning.</p>
+            <button><a>CONTACT NOW!</a></button>
             <div className='socials'>
               <i class="fab fa-github"></i>
               <i class="fab fa-linkedin"></i>
