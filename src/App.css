@@ -24,19 +24,25 @@ nav div ul {
   list-style: none;
 }
 
-nav div .socials {
-  flex: 1;
-}
-
 nav div ul li {
   flex: 1;
   padding: 5px;
   font-size: 20px;
+  opacity: 0.7;
+}
+
+nav div ul li:hover {
+  opacity: 1;
 }
 
 .socials li {
   flex: 0;
   padding: 0 10px;
+  opacity: 0.5
+}
+
+.socials li:hover {
+  opacity: 1;
 }
 
 .footer {
