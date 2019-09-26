@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import Main from './components/Main';
 import About from './components/About';
 import Projects from './components/Projects';
-import TechStack from './components/TechStack';
+import Skills from './components/Skills';
 import Footer from './components/Footer';
 //import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -15,7 +15,7 @@ function App() {
       <Main />
       <About />
       <Projects />
-      <TechStack />
+      <Skills />
       <Footer />
     </div>
   );

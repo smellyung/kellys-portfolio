@@ -34,7 +34,7 @@ nav div ul li {
   font-size: 20px;
 }
 
-nav div .socials li {
+.socials li {
   flex: 0;
   padding: 0 10px;
 }
@@ -151,11 +151,11 @@ button:hover {
   margin: 0 10px;
 }
 
-#tech-stack {
+#skill-section {
   margin-bottom: 50px;
 }
 
-.technologies {
+.skills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;

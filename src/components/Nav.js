@@ -18,7 +18,7 @@ export default function Header() {
             <li><a href='#main'>Home</a></li>
             <li><a href='#about'>About</a></li>
             <li><a href='#projects'>Projects</a></li>
-            <li><a href='#tech-stack'>Tech Stack</a></li>
+            <li><a href='#skill-section'>Skills</a></li>
           </ul>
         </div>
       </nav>
