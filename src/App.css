@@ -152,6 +152,14 @@ button:hover {
   margin: 10px;
 }
 
+#igAccount {
+  border-bottom: 3px solid rgb(123, 117, 168);
+}
+
+#igAccount:hover {
+  background: rgb(123, 117, 168);
+}
+
 .footer {
   background: black;
 }
