@@ -24,9 +24,9 @@ export default function About() {
             Navigate to the following sections to find out more about the tech stack used and projects I've worked on.
           </p>
           <p>
-            Outside of the world of coding, my interests includes fashion (creating a sustainable brand is a long time goal of mine), 
-            travelling and running a travel photography instagram account, taking (too many) pictures of sunrise/sunsets 
-            which also make their way onto the photography instagram account, going to the gym, cooking and baking. 
+            Outside of the world of coding, my interests include fashion (creating a sustainable brand is a long time goal of mine), 
+            travelling and posting on a <a id='igAccount' href='https://www.instagram.com/image.kng/'>travel photography instagram account</a>, taking (too many) pictures of sunrise and sunsets, 
+            building my strength at the gym and to balance that: cooking hearty meals and baking sweet treats. 
           </p>
         </div>
     );
