@@ -5,51 +5,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-nav {
-  width: 100%;
-  height: 70px;
-  position: fixed;
-  z-index: 1;
-}
-
-nav div {
-  background: black;
-  display: flex;
-  height: 100%;
-}
-
-nav div ul {
-  flex: 2;
-  display: flex;
-  list-style: none;
-}
-
-nav div ul li {
-  flex: 1;
-  padding: 5px;
-  font-size: 20px;
-  opacity: 0.7;
-}
-
-nav div ul li:hover {
-  opacity: 1;
-}
-
-.socials li {
-  flex: 0;
-  padding: 0 10px;
-  opacity: 0.5
-}
-
-.socials li:hover {
-  opacity: 1;
-}
-
-.footer {
-  background: #1c1a1a;
-  height: 70px;
-}
-
 img {
   height: 60px;
   width: 60px;
@@ -62,8 +17,12 @@ img {
 .container {
   display: flex;
   flex-direction: column;
-  padding: 30px 200px;
+  padding: 80px 200px;
 }
+
+/* .container div {
+  padding: 50px;
+} */
 
 h1 {
   font-size: 70px;
@@ -118,6 +77,7 @@ button:hover {
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 80px;
 }
 
 .project {
@@ -158,19 +118,26 @@ button:hover {
 }
 
 #skill-section {
-  margin-bottom: 50px;
+  /* padding-bottom: 50px; */
+  background: rgb(123, 117, 168);
+  color: white
 }
 
 .skills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
+  margin-bottom: 80px;
 }
 
 #about {
   background: black;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   color: white;
+}
+
+#about p:last-child {
+  margin-bottom: 80px;
 }
 
 #about div img {
@@ -181,7 +148,11 @@ button:hover {
   margin: 10px;
 }
 
-@media only screen and (max-width: 700px) {
+.footer {
+  background: black;
+}
+
+@media only screen and (max-width: 768px) {
   h1 {
     font-size: 60px;
   }
@@ -189,7 +160,8 @@ button:hover {
     font-size: 20px;
   }
   .container {
-    padding: 0;
+    padding: 60px 30px;
+    width: 100%;
   }
   #about div img {
     height: 275px;
