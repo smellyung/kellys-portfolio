@@ -1,0 +1,85 @@
+.navbar {
+    background: black;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar div {
+    flex: 1;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
+.navItem {
+    flex: 1;
+    padding: 20px 30px;
+    font-size: 20px;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.navItem:hover {
+    opacity: 1;
+    background: rgb(123, 117, 168);
+}
+
+.socials ul {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    margin: 0;
+}
+
+.socials ul li {
+    padding: 16px;
+    opacity: 0.8;
+}
+
+.socials ul li:hover {
+    opacity: 1;
+    border-bottom: 3px solid white;
+}
+
+.navbarItems {
+    display: flex;
+}
+
+#menu {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbarItems {
+        display: none;
+        flex-direction: column;
+    }
+    .navItem {
+        opacity: 1;
+    }
+    #menu {
+        padding-right: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #menu button {
+        background: none;
+        border: 0;
+        color: white;
+        padding: 0 10px;
+        opacity: 0.8;
+    }
+    #menu button:hover {
+        opacity: 1;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .toggleShow {
+        display: flex;
+    }
+}
