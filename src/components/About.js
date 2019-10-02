@@ -18,14 +18,15 @@ export default function About() {
           </p>
           <p>
             More recently, I've just completed the Kodiri Coding Bootcamp. I've refined and enhanced my skills by learning to build full stack, responsive apps from scratch!
-            During the two months, I have built a solo app (Kodlfix) as well as a Team App (Fridge-App). 
+            During the two months, I have built a solo app (Kodlfix) as well as a team app (Fridge-App). 
             On top of this, I have attended and provided support for several Kodiri meetup events - 
             I recently won the Intermediate Challenge at the Silicon Roundabout event held at the Accelerator (part of Metropolitan University)! 
             Navigate to the following sections to find out more about the tech stack used and projects I've worked on.
           </p>
           <p>
-            Outside of the world of coding, my interests includes fashion (creating a sustainable brand is a long time goal of mine!),
-            taking (too many) pictures of sunrise/sunsets, travelling and running a travel photography instagram account, going to the gym, cooking and baking. 
+            Outside of the world of coding, my interests includes fashion (creating a sustainable brand is a long time goal of mine), 
+            travelling and running a travel photography instagram account, taking (too many) pictures of sunrise/sunsets 
+            which also make their way onto the photography instagram account, going to the gym, cooking and baking. 
           </p>
         </div>
     );
